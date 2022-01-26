@@ -44,9 +44,8 @@ const defaultMenu = {
 │ ✾ Role: %role
 ╰❑
 ╭─❑ 「 INFORMASI 」 ❑──
-│ Bot ini masih tahap beta
-│ apabila ada bug/eror harap
-│ lapor ke owner
+│ My Name Is Klebitz
+│ 
 ╰❑
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
@@ -173,14 +172,14 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
            },
              {
              callButton: {
-               displayText: 'Nomor Owner',
-               PhoneNumber: '0813-5104-7727'
+               displayText: 'Owner Number',
+               PhoneNumber: '0812-1100-6838'
              }
 
            },
                {
              quickReplyButton: {
-               displayText: '🧒 Owner',
+               displayText: 'Owner',
                id: '.owner',
              }
 
